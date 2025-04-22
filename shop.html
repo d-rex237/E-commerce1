@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <!-- link swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- Header ============================================================-->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+          <div class="header__contact">
+            <span>(+237) -233-23-223</span>
+
+            <span>Our Location</span>
+          </div>
+
+          <p class="header__alert-news">super value dela - save more</p>
+          <a href="login-registration.html" class="header__top-action">
+            LogIn/SignUp
+          </a>
+        </div>
+      </div>
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="assets/images/logo.png" alt="" class="nav__logo-img" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link active-link">Shop</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="accout.html" class="nav__link">My Account</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="compare.html" class="nav__link">Compare</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="login-registration.html" class="nav__link">Login</a>
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <input
+              type="text "
+              class="form__input"
+              placeholder="Search for Items"
+            />
+
+            <button class="search__btn">
+              <img src="assets/images/search.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="header__user-actions">
+          <a href="wishlist.html" class="header__action-btn">
+            <img src="assets/images/heart.png" alt="" />
+            <span class="count">3</span>
+          </a>
+
+          <a href="cart.html" class="header__action-btn">
+            <img src="assets/images/cart.png" alt="" />
+            <span class="count">3</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN ================================================================-->
+
+    <main class="main">
+      <!-- BREADCRUMB =========================================================-->
+      <section class="breadcrumb">
+        <ul class="breadcrumb__list flex container">
+          <li><a href="index.html" class="breadcrumb__link"> Home</a></li>
+          <li><span class="breadcrumb__link">></span></li>
+          <li><span class="breadcrumb__link">Shop</span></li>
+        </ul>
+      </section>
+
+      <!-- PRODUCTS ========================================-->
+      <section class="products section--lg container">
+        <p class="total__products">We found <span>688</span> items for you!</p>
+
+        <div class="products__container grid">
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product1.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product1.jpg"
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product2wrap.webp"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product2wrap.webp"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product3.webp"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product3.webp"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-orange">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product4.webp"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product4.webp"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-blue">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product5.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product5.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-pink">-30%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product6.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product6.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-pink">-22%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product7.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product7.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product8.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product8.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product5.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product5.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-pink">-30%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product6.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product6.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-pink">-22%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product7.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product7.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/images/product8.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/images/product8.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <img src="assets/images/eye-43.png" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add to wishlist">
+                  <img src="assets/images/heart.svg" alt="" />
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <img src="assets/images/shuffle.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Flat Lollipop</h3>
+              </a>
+
+              <div class="product__rating">
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+                <img src="assets/images/star-gold-orange.svg" />
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$343.24</span>
+                <span class="old__price">$543.24</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <img
+                  src="assets/images/cart.png"
+                  alt=""
+                  class="action__btn cart__btn"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <ul class="pagination">
+          <li><a href="#" class="pagination__link active">01</a></li>
+          <li><a href="#" class="pagination__link">02</a></li>
+          <li><a href="#" class="pagination__link">03</a></li>
+          <li><a href="#" class="pagination__link">...</a></li>
+          <li><a href="#" class="pagination__link">16</a></li>
+          <li><a href="#" class="pagination__link icon">>> </a></li>
+        </ul>
+      </section>
+      <!-- NEWSLETTER ==================================-->
+      <section class="newsletter section home__newletter">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            <img
+              src="assets/images/heart.svg"
+              alt=""
+              class="newsletter__icon"
+            />
+            Sign Up To Newsletter
+          </h3>
+
+          <p class="newsletter__description">
+            ...And Receive $25 coupon for first deposit.
+          </p>
+
+          <form action="" class="newsletter__form">
+            <input
+              type="text"
+              class="newsletter__input"
+              placeholder="Enter Your Email"
+            />
+            <button class="newsletter__btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER --------------------------------------------------->
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img
+              src="assets/images/logo.png"
+              alt=" "
+              class="footer__logo-img"
+            />
+          </a>
+
+          <h4 class="footer__subtitle">Contact</h4>
+
+          <p class="footer__description">
+            <span>Address:</span> 564 willing road san francisco
+          </p>
+
+          <p class="footer__description"><span>Phone:</span> 72893792838</p>
+
+          <p class="footer__description"><span>Hours:</span> Always open</p>
+
+          <div class="footer__social">
+            <h4 class="footer__subtitle">Follow Me</h4>
+
+            <div class="footer__social-links flex">
+              <a href="">
+                <img
+                  src="assets/images/heart.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="assets/images/heart.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="assets/images/heart.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="assets/images/heart.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="assets/images/heart.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Address</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">About Us</a></li>
+            <li><a href="" class="footer__link">Delivery Information</a></li>
+            <li><a href="" class="footer__link">Privacy Policy</a></li>
+            <li><a href="" class="footer__link">Terms & Conditions</a></li>
+            <li><a href="" class="footer__link">Contact Us</a></li>
+            <li><a href="" class="footer__link">Support Center</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">My Account</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">Sign In</a></li>
+            <li><a href="" class="footer__link">View Cart</a></li>
+            <li><a href="" class="footer__link">My wishlist</a></li>
+            <li><a href="" class="footer__link">Track My Order</a></li>
+            <li><a href="" class="footer__link">Help</a></li>
+            <li><a href="" class="footer__link">Order</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Secure Payment Gateway</h3>
+
+          <img src="assets/images/PayPal.jpg" alt="" class="payment__img" />
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="copyright">&copy; 2023 Evara. All rights reserved</p>
+        <span class="designer">Design By Rex Tech</span>
+      </div>
+    </footer>
+
+    <!-- link swiper for js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Main Script--------------------------------- -->
+    <script src="assets/app.js"></script>
+  </body>
+</html>
